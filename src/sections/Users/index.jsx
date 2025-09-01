@@ -21,7 +21,9 @@ function UsersSection() {
     <section>
       <h2>Users Section</h2>
       <div className="scroll-container">
-        <UsersList users={data}/>
+        <ul className="users-list">
+          <UsersList users={data}/>
+        </ul>
       </div>
     </section>
   )
